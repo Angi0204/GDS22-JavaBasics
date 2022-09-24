@@ -1,4 +1,4 @@
-public class Calculator {
+public class Calculator { // RUN LINKS!
 
     public static void main(String[] args) {
 
@@ -10,5 +10,8 @@ public class Calculator {
 
         System.out.println("Mein Name ist" + name );
         System.out.println("Das Ergebnis der Addition lautet " + summeXY +"!");
+        // oder gleich in der Ausgabe addieren
+        System.out.println( name + ( summeXY));
+
     }
 }
