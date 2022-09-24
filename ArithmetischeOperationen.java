@@ -1,8 +1,10 @@
+import java.sql.SQLOutput;
+
 public class ArithmetischeOperationen {
 
     public static void main(String[] args) {
-        int a = 5;
-        int b = 3;
+        int a = 3;
+        int b = 2;
         int result;
 
         // addieren
@@ -25,6 +27,20 @@ public class ArithmetischeOperationen {
         System.out.println("result = " + result);
 
 
+        //a++ öfters verwendet  => a= a+1
+        System.out.println("a++");
 
+        //Hier erwarte mir 3, wurde nicht erhöht weil nicht ausgegeben
+        System.out.println(a++); //---> zuerst "definiert"
+
+        //hier wurde a ausgewerdet und jetzt wird sie um eins vermehrt
+        System.out.println("a= " + a ); // ich erwarte mir 4
+
+        //++b
+        System.out.println("++b");
+
+        System.out.println(++b);
+
+        System.out.println("b= "+ b);
     }
 }
